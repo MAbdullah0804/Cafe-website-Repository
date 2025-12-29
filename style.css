@@ -254,7 +254,21 @@ body {
     max-width: 1200px;
     padding: 0 1rem;
 }
-
+.back-to-cart-btn{
+    position: sticky;
+    top: 10px;
+    z-index: 99;
+    border-radius: 20px;
+     background: linear-gradient(135deg, rgba(37, 117, 252, 0.7), rgba(106, 17, 203,0.7));
+    backdrop-filter: blur(5px);
+    margin: 1.5rem;
+}
+.back-to-cart{
+    text-decoration: none;
+    color: #fff;
+    
+    font-size: 1rem;
+}
 .inner-c {
     background: linear-gradient(145deg, #ffffff, #f0f0ff);
     border-radius: 20px;
@@ -314,6 +328,8 @@ button.add {
     background: linear-gradient(135deg, #2575fc, #6a11cb);
     color: #fff;
     font-weight: 600;
+    margin-bottom: 0.2rem;
+    margin-left: 0.2rem;
 }
 
 button.add:hover {
