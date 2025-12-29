@@ -93,7 +93,7 @@ body {
 /* TOGGLE BUTTON (md & below only) */
 .nav-toggle {
     position: absolute;
-    top: 18px;
+    top: 10px;
     right: 20px;
     background: rgba(255,255,255,0.25);
     border: none;
@@ -255,23 +255,28 @@ body {
     padding: 0 1rem;
 }
 .back-to-cart-btn{
+    display: flex;
+    justify-self: center;
     position: sticky;
     top: 10px;
+    padding: 0;
     z-index: 99;
-    border-radius: 20px;
      background: linear-gradient(135deg, rgba(37, 117, 252, 0.7), rgba(106, 17, 203,0.7));
     backdrop-filter: blur(5px);
     margin: 1rem;
 }
 #back-to-cart{
     text-decoration: none;
-    color: #fff;    
-    font-size: 1rem;
+    color: #fff;
+    padding: 0.5rem 1rem;  
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 .inner-c {
     background: linear-gradient(145deg, #ffffff, #f0f0ff);
     border-radius: 20px;
-    padding: 2rem;
+    padding: 0.5rem, 2rem;
     box-shadow: 0 12px 35px rgba(0,0,0,0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -444,6 +449,7 @@ button.add:hover {
     margin-bottom: 15px;
     background: linear-gradient(90deg, #ff416c, #1fa2ff);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -451,6 +457,8 @@ button.add:hover {
 .footer-text {
     font-size: 14px;
     line-height: 1.7;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 /* Footer Links */
